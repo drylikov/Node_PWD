@@ -1,0 +1,37 @@
+
+{
+  "name": "pwd",
+  "version": "1.1.0",
+  "description": "Hash and compare passwords with pbkdf2",
+  "keywords": [
+    "pass",
+    "auth",
+    "password",
+    "authentication"
+  ],
+  "author": "Denis Rylikov <denis.rylikov@protonmail.com>",
+  "maintainers": [
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drylikov/node_pwd.git"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">= 0.10"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  }
+}
