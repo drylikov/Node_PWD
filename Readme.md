@@ -62,4 +62,3 @@ pass.hash('submitted password', user.salt).then(function(result) {
 });
 
 
-
